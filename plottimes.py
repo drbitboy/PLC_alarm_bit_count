@@ -1,3 +1,7 @@
+"""
+Usage:
+     python plottimes.py < data/alarm_count_live.html
+"""
 import sys
 import matplotlib.pyplot as plt
 from extract_data_files import LOGIX500DATA as L500D
